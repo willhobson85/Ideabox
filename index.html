@@ -11,13 +11,26 @@
       </h1>
       <h2>
       </h2>
-      <button class="filter-ideas">
-      <button class="show-ideas">
+      <button class="filter-ideas-button">
+      <button class="show-ideas-button">
     </section>
     <section class="right-menu">
       <section class="create-idea">
+        <form>
+          <label for="idea-name-textbox">Title</label><br>
+          <input type="text" id="idea-name-textbox" name="idea-name-textbox"><br>
+          <label for="idea-body-textbox">Body</label><br>
+          <input type="text" id="idea-body-textbox" name="idea-body-textbox"><br>
+          <input type="submit" value="Save">
+          <button class="searchbox-button">
+          <input type="text" id="searchbox-textbox" name="searchbox-text">
       </section>
       <section class="idea-grid">
+        <form class="idea-form" hidden>
+          <header class="star-bar">
+          <h3>Title Placeholder</h3>
+          <h4>Body Placeholder</h4>
+          <footer class="comment-bar">
       </section>
     </section>
   </body>
