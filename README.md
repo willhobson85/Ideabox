@@ -3,10 +3,11 @@
 ## Table of Contents
 
 - Introduction
-- Technologies Used
+- Technologies
 - Features
 - [Illustrations](#illustrations)
 - Set Up
+- Sources 
 - Contributors
 - Project Spec & Ruberic
 - Published Link
@@ -28,7 +29,7 @@
   -
   -
 
-  ## Illustrations
+## Illustrations
 
   ![IdeaBox](https://frontend.turing.edu/projects/module-1/assets/ideabox-group/desktop.jpg)
 
