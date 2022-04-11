@@ -2,14 +2,15 @@
 
 ## Table of Contents
 
-1. Introduction
-2. Technologies Used
-3. Functions
-4. Set Up
-5. Contributors
-6. Project Spec & Ruberic
-7. Published Link
-8. What I Learned
+- Introduction
+- Technologies Used
+- Features
+- [Illustrations](#illustrations)
+- Set Up
+- Contributors
+- Project Spec & Ruberic
+- Published Link
+- What I Learned
 
 ## Introduction
 
@@ -27,12 +28,25 @@
   -
   -
 
+  ## Illustrations
+
+  ![IdeaBox](https://frontend.turing.edu/projects/module-1/assets/ideabox-group/desktop.jpg)
+
+  ![IdeaBox](https://frontend.turing.edu/projects/module-1/assets/ideabox-group/ideabox-colors.png)
+
 ## Set Up
 
-  1. Fork this repo
-  2. Clone the repo to your local machine.
+  1. Fork the repository found here: https://github.com/willhobson85/Ideabox
+  2. Clone down your new, forked repo. While cloning, name it what you want your project to be named. git clone <url> <newNameYouWantItToHave>
   3. In your terminal, navigate to your project repo.
-  4. Run the command `open index.html`.
+  4. View the project in the browser by running `open index.html` in your terminal.
+
+## Sources
+
+  - [MDN](https://developer.mozilla.org/en-US/)
+  - [W3Schools](https://www.w3schools.com/)
+  - [TEST CSS FLEXBOX RULES](https://flexbox.help/)
+
 
 ## Contributors
 
