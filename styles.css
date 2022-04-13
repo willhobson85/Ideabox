@@ -62,8 +62,8 @@ h1 {
  color: #BFBFDD;
  background-color: #1F1F3D;
  border: none;
- height: 50px;
- width: 280px;
+ height: 40%;
+ width: 80%;
  padding-top: 15px;
  padding-left: 13px;
 }
@@ -84,7 +84,7 @@ h1 {
  height: 40%;
  width: 90%;
  margin-left: 10px;
- margin-top: 2%;
+ margin-top: 4%;
  margin-bottom: 10%;
 }
 
@@ -171,22 +171,14 @@ h1 {
  background-color: #1F1F3D;
  height: 50px;
  width: 50px;
- /* background-image: url('./assets/search.svg'); */
+ background-image: url('./assets/search.svg');
  margin-top: 20px;
  padding-left: 5px;
  font-size: 5%;
+ background-size: 50%;
+ background-repeat: no-repeat;
+ background-position: center;
 }
-.glass{
-  margin: 0px;
-display: flex;
-background-size: cover;
-/* margin-bottom: 500%; */
-height: 60%;
-/* weight: 60%; */
- resize: both;
-
-}
-
 
 #searchbox-textbox {
  display: flex;
