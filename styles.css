@@ -20,7 +20,7 @@ body, html {
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
- font-family: 'Open Sans';
+ font-family: 'Roboto', sans-serif;
  background-size: cover;
  background-color: #EAEAF4;
  font-weight: bold;
@@ -171,11 +171,22 @@ h1 {
  background-color: #1F1F3D;
  height: 50px;
  width: 50px;
- background-image: url('./assets/search.svg');
+ /* background-image: url('./assets/search.svg'); */
  margin-top: 20px;
  padding-left: 5px;
  font-size: 5%;
 }
+.glass{
+  margin: 0px;
+display: flex;
+background-size: cover;
+/* margin-bottom: 500%; */
+height: 60%;
+/* weight: 60%; */
+ resize: both;
+
+}
+
 
 #searchbox-textbox {
  display: flex;
@@ -191,6 +202,7 @@ h1 {
  height: 50px;
  width: 450px;
 }
+
 
 form{
   margin-top: 15px;
