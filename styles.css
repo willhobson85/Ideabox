@@ -26,7 +26,7 @@ body, html {
   flex-direction: column;
   align-items: stretch;
   height: 100%;
-  width: 25%;
+  width: 20%;
   background-color: #1F1F3D;
 }
 
@@ -78,6 +78,7 @@ h1 {
 .right-menu {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: #A9AAD2;
   padding-left: 25%;
   height: 40%;
@@ -93,41 +94,40 @@ h1 {
   border: 7px;
 }
 
-form {
-  display: flex;
-  background-color: #EAEAF4;
-}
-/*
 #idea-name-textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   background-color: white;
-  border: 7px;
+  border: 2px;
+  border-style: solid;
   border-color: #5356A4;
   font-size: Medium;
   font-style: 'Open Sans, Light';
-  font-color: #1F1F3D;
-  margin-top: 25px;
+  color: #1F1F3D;
   height: 50px;
-  width: 200px;
+  width: 500px;
+  margin-top: 20px;
 }
 
 #idea-body-textbox {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column
+  align-content: space-around;
   background-color: white;
-  border: 7px;
+  border: 2px;
+  border-style: solid;
   border-color: #5356A4;
   font-size: Medium;
   font-style: 'Open Sans, Light';
-  font-color: #1F1F3D;
-  margin-top: 200px;
-  height: 125px;
-  width: 200px;
+  color: #1F1F3D;
+  height: 100px;
+  width: 500px;
+  margin-top: 35px;
 }
-
+/*
 .save-button {
   display: flex;
   flex-direction: column;
@@ -184,4 +184,8 @@ form {
 
 .comment-bar {
   display: flex;
-} */
+}
+
+.hidden {
+  display: none;
+}
