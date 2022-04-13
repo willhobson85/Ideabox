@@ -198,15 +198,25 @@ form{
 }
 
 
-.idea-grid {
+ .idea-grid {
  display: flex;
- background-color: #EAEAF4;
+ flex-direction: row-reverse;
+ background-color: #FFFFFF;
+ margin-top: 50%;
+ margin-right: 50%
  weight: 20%;
  height: 20%;
 }
 
 .idea-form {
  display: flex;
+ border-left: 100;
+ border-right: 100;
+ border-top: 75;
+ border-left: 75;
+ padding: 2%;
+ flex-grow: 1;
+ flex-basis: 30%
  border: 1px solid #1F1F3D;
  weight: 20%;
  height: 20%;
