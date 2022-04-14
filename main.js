@@ -8,6 +8,7 @@ var favoriteButton = document.querySelector(".favorite-button");
 var deleteButton = document.querySelector(".delete-button");
 var commentButton = document.querySelector(".comment-button");
 
+var ideas = [];
 
 filterStarredIdeasBtn.addEventListener("click", );
 showStarredIdeasBtn.addEventListener("click", );
