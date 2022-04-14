@@ -4,9 +4,10 @@ var titleTextbox = document.querySelector(".idea-name-textbox");
 var bodyTextbox = document.querySelector(".idea-body-textbox");
 var saveButton = document.querySelector(".save-button");
 var searchButton = document.querySelector(".searchbox-button");
-var favoriteButton = document.querySelector(".favorite-button");
-var deleteButton = document.querySelector(".delete-button");
-var commentButton = document.querySelector(".comment-button");
+var favoriteButton = document.querySelector(".save-star");
+var unfavoriteButton = document.querySelector(".active-star")
+var deleteButton = document.querySelector(".delete-x");
+var commentButton = document.querySelector("./assets/comment.svg");
 
 var ideas = [];
 
