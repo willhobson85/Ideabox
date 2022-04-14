@@ -1,19 +1,20 @@
-/* * {
-  border: 2px red solid;
-} */
+/*
+Header Text: Open Sans, Bold
+Body and Label Text: Open Sans, Light
 
-font-family: 'Open Sans', Bold, Light;
+BACKGROUNDS
+Deep Violet #1F1F3D
+Lavender #A9AAD2
+Light Lavender #EAEAF4
 
-{background-color: #1F1F3D;}   /* Dark Purple */
-{background-color: #5356A4;}   /* Medium Purple */
-{background-color: #353567;}   /* Dark Lavender */
-{background-color: #A9AAD2;}   /* Lavender */
-{background-color: #BFBFDD;}   /* Medium Lavender */
-{background-color: #E9E9F3;}   /* Medium Pink */
-{background-color: #EAEAF4;}   /* Light Pink */
-{background-color: #E9E9F3;}   /* Light Lavender */
-{background-color: #FFFFFF;}   /* White */
+Ideabox Section
+White #FFFFFF
+Off White Text Color #E9E9F3
+Purple Comment #5356A4
 
+Thin Line  #353567
+Filter Starred Ideas #BFBFDD
+*/
 
 body, html {
  margin: 0;
@@ -206,35 +207,51 @@ form{
   display: flex;
   flex-direction: row;
   background-color: #EAEAF4;
-  height: 1000px;
-  width: 1225px;
+  margin-top: 2%;
+  height: 50%;
+  width: 100%;
 }
 
-/* .idea-form {
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- border: 2px solid;
+.mini-idea {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  justify-content: space-evenly;
 }
 
-.idea-body {
- display: flex;
- color: #1F1F3D;
- background-color: #FFFFFF;
+.mini-header {
+  height: 40px;
+  background-color: #1F1F3D;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.star-bar {
- display: flex;
- background-color: #1F1F3D;
+.mini-body {
+  padding: 10px;
+  height: 220px;
+  color: #1F1F3D;
+  background-color: #FFFFFF;
 }
 
-.comment-bar {
- display: flex;
- color: #E9E9F3;
- background-color: #5356A4;
-} */
+.mini-footer {
+  height: 40px;
+  background-color: #5356A4;
+  color: #E9E9F3;
+  display: flex;
+  align-items: center;
+}
 
-/*
+img {
+  height: 30px;
+}
+
 .hidden {
  display: none;
-} */
+}
+ */
