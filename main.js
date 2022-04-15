@@ -18,3 +18,15 @@ searchButton.addEventListener("click", );
 favoriteButton.addEventListener("click", );
 deleteButton.addEventListener("click", );
 commentButton.addEventListener("click", );
+
+function saveIdea() {
+  event.preventDefault();
+  var idea = new Idea(titleTextBox.value, bodyTextBox.value);
+  if (titleTextBox.value && bodyTextBox.value) {
+    ideas.unshift(idea);
+    // makeMiniPoster(idea);
+    // clearInput();
+  }else {
+  return alert("Please tell us your ideas.")
+  }
+}
