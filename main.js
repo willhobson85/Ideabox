@@ -38,4 +38,19 @@ searchButton.addEventListener("click", );
 favoriteButton.addEventListener("click", );
 deleteButton.addEventListener("click", );
 commentButton.addEventListener("click", );
+<<<<<<< HEAD
 >>>>>>> ed1887ef97b293cf011158e48b6da2f526c67c42
+=======
+
+function saveIdea() {
+  event.preventDefault();
+  var idea = new Idea(titleTextBox.value, bodyTextBox.value);
+  if (titleTextBox.value && bodyTextBox.value) {
+    ideas.unshift(idea);
+    // makeMiniPoster(idea);
+    // clearInput();
+  }else {
+  return alert("Please tell us your ideas.")
+  }
+}
+>>>>>>> 775f3bfaec07c115a3fd06de9a4a15ffd7fa2685
