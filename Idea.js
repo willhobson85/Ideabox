@@ -1,11 +1,18 @@
-class Idea {
-  constructor({id, title, body, star}) {
-    this.id = id;
-    this.title = title;
-    this.body = body;
-    this.star = false;
-  }
+// class Idea {
+//   constructor({id, title, body, star}) {
+//     this.id = id;
+//     this.title = title;
+//     this.body = body;
+//     this.star = false;
+//   }
 
+  class Idea {
+    constructor({id, title, body, star}) {
+      this.id = Date.now();
+      this.title = titleTextbox.value;
+      this.body = bodyTextbox.value;
+      this.star = false;
+    }
 //method needs to push class to storage array
 //saveToStorage() {
 
@@ -18,7 +25,7 @@ class Idea {
 
 // }
 // Need to update below code to target by id.
-updateIdea(this.star) {
+updateIdea() {
   if (this.star === false) {
     this.star = true;
   } else (this.star === true) {
