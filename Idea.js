@@ -6,6 +6,7 @@
       this.body = bodyTextbox.value;
       this.star = false;
     }
+    
 //method needs to push class to storage array
 //saveToStorage() {
 
@@ -18,6 +19,8 @@
 
 // }
 // Need to update below code to target by id.
+
+
   updateIdea(star) {
     if (this.star === false) {
       this.star = true;
