@@ -1,10 +1,3 @@
-// class Idea {
-//   constructor({id, title, body, star}) {
-//     this.id = id;
-//     this.title = title;
-//     this.body = body;
-//     this.star = false;
-//   }
 
   class Idea {
     constructor({id, title, body, star}) {
@@ -25,12 +18,11 @@
 
 // }
 // Need to update below code to target by id.
-updateIdea() {
-  if (this.star === false) {
-    this.star = true;
-  } else (this.star === true) {
-    this.star = false;
+  updateIdea(star) {
+    if (this.star === false) {
+      this.star = true;
+    } else {
+      this.star = false;
+    }
   }
-}
-
 }
