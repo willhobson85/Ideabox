@@ -1,12 +1,12 @@
 
-  class Idea {
-    constructor({id, title, body, star}) {
-      this.id = Date.now();
-      this.title = titleTextbox.value;
-      this.body = bodyTextbox.value;
+class Idea {
+    constructor(title, body) {
+      this.id = Date.now().toString();
+      this.title = title;
+      this.body = body;
       this.star = false;
     }
-    
+
 //method needs to push class to storage array
 //saveToStorage() {
 
