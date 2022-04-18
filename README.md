@@ -7,7 +7,7 @@
 - Features
 - [Illustrations](#illustrations)
 - Set Up
-- Sources 
+- Sources
 - Contributors
 - Project Spec & Ruberic
 - Published Link
@@ -26,14 +26,14 @@
   - CSS
 
 ## Features
-  -
-  -
+  - Create a new card to add to the array.
+  - Toggle the idea to be a favorite by clicking the star.
+  - Remove an idea from the array by clicking the X.
+  - You cannot add a new card without title and body text.
 
 ## Illustrations
 
-  ![IdeaBox](https://frontend.turing.edu/projects/module-1/assets/ideabox-group/desktop.jpg)
-
-  ![IdeaBox](https://frontend.turing.edu/projects/module-1/assets/ideabox-group/ideabox-colors.png)
+  ![IdeaBox](https://user-images.githubusercontent.com/99286590/163883035-41d5871a-c494-4f07-9c34-a9c34733b193.png)
 
 ## Set Up
 
@@ -63,5 +63,7 @@
   - You can view the website [here](https://willhobson85.github.io/Ideabox/)
 
 ## What I Learned
-  -
-  -
+  - I learned a lot about using Flexbox in the console to change the size of and orientation of our elements.
+  - We worked as a team to make the html more dynamic.
+  - We used paired and group programming to implement functionality.
+  - The team made use of multiple class interactions and event bubbling through creative use of event listeners.
