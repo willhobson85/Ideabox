@@ -1,8 +1,10 @@
 //Global Variables
+
 var ideas = [];
 
 
 //Query Selectors
+
 var filterStarredIdeasBtn = document.querySelector(".filter-ideas-button");
 var showStarredIdeasBtn = document.querySelector(".show-ideas-button");
 var titleTextBox = document.querySelector("#idea-name-textbox");
@@ -13,24 +15,25 @@ var favoriteButton = document.querySelector(".save-star");
 var unfavoriteButton = document.querySelector(".active-star")
 var deleteButton = document.querySelector(".delete-x");
 var wholeMiniCard = document.querySelector(".idea-grid");
-// var commentButton = document.querySelector("./assets/comment.svg");
+
 
 //Event Listeners
 
-// filterStarredIdeasBtn.addEventListener("click", );
-// showStarredIdeasBtn.addEventListener("click", );
 saveButton.addEventListener("click", saveIdea);
-// searchButton.addEventListener("click", );
-favoriteButton.addEventListener("click", );
-wholeMiniCard.addEventListener("click", deleteMiniPoster);
-// commentButton.addEventListener("click", );
+wholeMiniCard.addEventListener("click", eventId);
 
+//Data Model
 
-
-
-
+function eventId(event) {
+  if(event.target.className === "delete-x"){
+    deleteMiniPoster();
+  } else if (event.target.className === "save-star" || event.target.className === "active-star"){
+    favoriteMiniPoster();
+  }
+}
 
 //DOM Functions
+
 function stopSaveButton() {
   saveButton.disable = true;
   saveButton.classList.remove("save");
@@ -50,7 +53,6 @@ function goSaveButton() {
 function saveIdea() {
   event.preventDefault();
   var currentIdea = new Idea(titleTextBox.value, bodyTextBox.value);
-  console.log(currentIdea)
   if (titleTextBox.value && bodyTextBox.value) {
     ideas.unshift(currentIdea);
     makeMiniPoster(currentIdea);
@@ -71,9 +73,20 @@ function deleteMiniPoster() {
   if (event.target.className === "delete-x") {
     var miniPoster = event.target.closest(".mini-idea");
     var index = ideas.findIndex(idea => idea.id === miniPoster.id)
-    ideas.splice(index, 1);
-    miniPoster.remove()
+      ideas.splice(index, 1);
+      miniPoster.remove()
   }
+}
+
+function favoriteMiniPoster() {
+  var miniPosterItem = event.target.closest(".mini-idea");
+  for (var i = 0; i < ideas.length; i++) {
+    if (ideas[i].id === miniPosterItem.id) {
+      ideas[i].updateIdea();
+    }
+      miniPosterItem.querySelector(".save-star").classList.toggle("hidden");
+      miniPosterItem.querySelector(".active-star").classList.toggle("hidden");
+    }
 }
 
 function clearInput() {
