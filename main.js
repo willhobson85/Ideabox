@@ -21,18 +21,16 @@ var wholeMiniCard = document.querySelector(".idea-grid");
 // showStarredIdeasBtn.addEventListener("click", );
 saveButton.addEventListener("click", saveIdea);
 // searchButton.addEventListener("click", );
-// favoriteButton.addEventListener("click", );
-deleteButton.addEventListener("click", deleteMiniPoster);
+favoriteButton.addEventListener("click", );
+wholeMiniCard.addEventListener("click", deleteMiniPoster);
 // commentButton.addEventListener("click", );
 
-//Data Model Functions
+
 
 
 
 
 //DOM Functions
-
-
 function stopSaveButton() {
   saveButton.disable = true;
   saveButton.classList.remove("save");
